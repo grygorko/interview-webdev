@@ -1,0 +1,46 @@
+html {
+  background-image: linear-gradient(to top right, white, grey);
+  text-align: center;
+  height: 1000px;
+  width: auto;
+}
+.menu, footer {
+
+  font-family: 'Ubuntu', sans-serif;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: white;
+}
+a:active {
+  color: darkgrey;
+}
+h1  {
+font-family: 'Josefin Sans', sans-serif;
+margin-top: 100px;
+}
+
+.about {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  width: 600px;
+  height: auto;
+  margin: 50px auto;
+  border-radius: 5px;
+  box-shadow: 2px 4px 3px grey;
+  text-align: center;
+  padding: 20px;
+}
+ul {
+  text-align: left;
+  list-style-type: none;
+}
+.drop1 {
+
+}
+.q1 {
+      position: relative;
+      display: inline-block;
+}
