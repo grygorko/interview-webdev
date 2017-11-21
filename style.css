@@ -1,5 +1,5 @@
 html {
-  background-image: linear-gradient(to top right, white, grey);
+  background-image: linear-gradient(to bottom right, white, grey);
   text-align: center;
   height: 800px;
   width: auto;
@@ -68,7 +68,9 @@ section {
 }
 .cocontact {
   float: left;
+  text-align: left;
   width: 300px;
+  padding: 10px;
 
 }
 
