@@ -1,46 +1,106 @@
 html {
   background-image: linear-gradient(to top right, white, grey);
   text-align: center;
-  height: 1000px;
+  height: 800px;
   width: auto;
 }
-.menu, footer {
-
+header{
+  margin-top: -20px;
+  width: inherit;
+  height: 100px;
+  background-color: darkgrey;
+  box-shadow: 2px 4px 3px grey;
+  border-radius: 5px;
+}
+.menu, footer, .cocontact, .form, h2, .quest {
   font-family: 'Ubuntu', sans-serif;
+}
+.menu {
+  padding: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  float: right;
+}
+.name {
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 20px;
+  margin-left: 20px;
+  margin-top: 0;
+  float: left;
 }
 a {
   color: black;
 }
 a:hover {
   color: white;
+  text-shadow: 2px 4px 3px grey;
 }
 a:active {
   color: darkgrey;
 }
-h1  {
-font-family: 'Josefin Sans', sans-serif;
-margin-top: 100px;
-}
-
-.about {
-  font-family: Arial, sans-serif;
+section {
   background-color: white;
-  width: 600px;
-  height: auto;
-  margin: 50px auto;
+  width: 700px;
+  height: 450px;
+  margin: 20px auto;
   border-radius: 5px;
   box-shadow: 2px 4px 3px grey;
-  text-align: center;
   padding: 20px;
 }
-ul {
-  text-align: left;
-  list-style-type: none;
+.about {
+  font-family: Arial, sans-serif;
+  float: right;
+  width: 350px;
+
+}
+.about p {
+  padding: 10px;
+}
+.myphoto {
+  border-radius: 120px;
+  border: thin solid darkgrey;
+  float: left;
+  margin: 100px 50px;
+
+}
+.form {
+  float: left;
+}
+.cocontact {
+  float: left;
+  width: 300px;
+
+}
+
+.quest {
+     text-align: left;
+     font-size: 14px;
 }
 .drop1 {
-
+     display: none;
+     background-color: #f9f9f9;
+     min-width: 160px;
+     border-radius: 5px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+     transition: max-width 3s;
 }
 .q1 {
       position: relative;
       display: inline-block;
+      cursor: pointer;
+}
+.q1:hover .drop1 {
+    display: block;
+    position: absolute;
+    width: 500px;
+    margin-left: 150px;
+    background-color: grey;
+    padding: 10px;
+    min-width: 160px;
+    opacity: 1;
+}
+
+.q1:hover {
+    font-size: 120%;
 }
