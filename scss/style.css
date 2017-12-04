@@ -1,6 +1,6 @@
 html {
   margin: 0 auto;
-  background-image: url(1511.jpg);
+  background-image: url(./img/1511.jpg);
   background-size: cover;
   background-repeat: space;
   text-align: center;
@@ -12,7 +12,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: white;
+  color: #ffffff;
   margin-top: -10px;
   width: inherit;
   height: auto;
@@ -22,11 +22,7 @@ header {
 }
 
 .menu, footer, .cocontact, .form, .quest, h2 {
-  font-family: Ubuntu, sans-serif;
-}
-
-.menu a {
-  margin: 5px;
+  font: 100% Ubuntu, sans-serif;
 }
 
 .menu {
@@ -34,6 +30,10 @@ header {
   position: relative;
   float: right;
   margin-top: 10px;
+}
+
+.menu a {
+  margin: 5px;
 }
 
 .name {
@@ -49,8 +49,8 @@ a {
 }
 
 a:hover {
-  color: white;
-  text-shadow: 1px 1px 2px #183446;
+  color: #ffffff;
+  text-shadow: 2px 4px 3px #183446;
 }
 
 a:active {
@@ -67,7 +67,7 @@ section {
   margin: 20px auto;
   padding: 40px;
   border-radius: 5px;
-  box-shadow: 1px 2px 3px #183446;
+  box-shadow: 2px 4px 3px #183446;
 }
 
 ul {
@@ -100,7 +100,7 @@ li {
   height: 200px;
   width: 200px;
   border-radius: 120px;
-  box-shadow: 3px 3px 4px #183446;
+  box-shadow: 2px 4px 3px #183446;
   margin: 100px 50px;
   -webkit-transition: .5s ease-out;
   /*for safari*/
@@ -148,18 +148,23 @@ li {
   cursor: pointer;
 }
 
-.q1:hover .drop1 {
+.q1:hover {
   display: block;
   position: absolute;
   margin-left: 20px;
   background-color: #125E8A;
   padding: 20px;
-}
-
-.q1:hover {
   font-size: 120%;
   text-decoration: underline;
   color: #125E8A;
+}
+
+.q1 .drop1 {
+  display: block;
+  position: absolute;
+  margin-left: 20px;
+  background-color: #125E8A;
+  padding: 20px;
 }
 
 footer {

@@ -1,4 +1,8 @@
-html {
+$bluecolor: #125E8A;
+$shadow: 2px 4px 3px #183446;
+$text-color: #ffffff;
+$font: Ubuntu, sans-serif;
+html{
   margin: 0 auto;
   background-image: url(1511.jpg);
   background-size: cover;
@@ -7,35 +11,30 @@ html {
   height: 800px;
   width: auto;
 }
-
-header {
+header{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: white;
+  color: $text-color;
   margin-top: -10px;
   width: inherit;
   height: auto;
-  background-color: #125E8A;
-  box-shadow: 2px 4px 3px #183446;
+  background-color: $bluecolor;
+  box-shadow: $shadow;
   border-radius: 5px;
 }
-
 .menu, footer, .cocontact, .form, .quest, h2 {
-  font-family: Ubuntu, sans-serif;
-}
-
-.menu a {
-  margin: 5px;
-}
+  font: 100% $font;}
 
 .menu {
   padding: 10px;
   position: relative;
   float: right;
   margin-top: 10px;
+  a {
+    margin: 5px;
+  }
 }
-
 .name {
   font-family: 'Josefin Sans', sans-serif;
   padding: 10px;
@@ -43,20 +42,16 @@ header {
   margin: -10px auto;
   float: left;
 }
-
 a {
   color: black;
+  &:hover{
+    color: $text-color;
+    text-shadow: $shadow;
+  }
+  &:active {
+    color: #022F40;
+  }
 }
-
-a:hover {
-  color: white;
-  text-shadow: 1px 1px 2px #183446;
-}
-
-a:active {
-  color: #022F40;
-}
-
 section {
   background-color: white;
   display: flex;
@@ -67,58 +62,50 @@ section {
   margin: 20px auto;
   padding: 40px;
   border-radius: 5px;
-  box-shadow: 1px 2px 3px #183446;
+  box-shadow: $shadow;
 }
-
 ul {
   margin-top: 50px;
   list-style: none;
   min-width: 160px;
   text-align: right;
-  font-family: Ubuntu, sans-serif;
+  font-family: $font;
 }
-
 li {
   margin: 10px;
 }
-
 .about {
   font-family: Arial, sans-serif;
   line-height: 1.4;
   position: static;
   width: 300px;
   margin: 10px auto 10px auto;
+  p {
+    text-align: justify;
+    font-size: 15px;
+    padding: 10px;
+  }
 }
-
-.about p {
-  text-align: justify;
-  font-size: 15px;
-  padding: 10px;
-}
-
 .myphoto {
   height: 200px;
   width: 200px;
   border-radius: 120px;
-  box-shadow: 3px 3px 4px #183446;
+  box-shadow: $shadow;
   margin: 100px 50px;
-  -webkit-transition: .5s ease-out;
-  /*for safari*/
+  -webkit-transition: .5s ease-out; /*for safari*/
   transition-property: all;
   transition-duration: .3s;
   transition-timing-function: ease-in-out;
   cursor: auto;
+  &:hover {
+    position: sticky;
+    height: 250px;
+    width: 250px;
+    border-radius: 150px;
+    box-shadow: 1px 1px 2px #183446;
+    margin: 80px 25px;
+  }
 }
-
-.myphoto:hover {
-  position: sticky;
-  height: 250px;
-  width: 250px;
-  border-radius: 150px;
-  box-shadow: 1px 1px 2px #183446;
-  margin: 80px 25px;
-}
-
 .opinion {
   margin-top: 50px;
   margin-left: 30px;
@@ -142,32 +129,32 @@ li {
   box-shadow: 0px 8px 16px 0px #183446;
   z-index: 1;
 }
-
-.q1 {
-  position: relative;
-  cursor: pointer;
-}
-
-.q1:hover .drop1 {
+@mixin dropdown {
   display: block;
   position: absolute;
   margin-left: 20px;
   background-color: #125E8A;
   padding: 20px;
 }
-
-.q1:hover {
-  font-size: 120%;
-  text-decoration: underline;
-  color: #125E8A;
+.q1 {
+  position: relative;
+  cursor: pointer;
+  &:hover{
+    @include dropdown;
+    font-size: 120%;
+    text-decoration: underline;
+    color: #125E8A;
+  }
+  .drop1 {
+    @include dropdown;
+  }
 }
-
 footer {
   padding: 10px;
   margin-bottom: -20px;
   width: inherit;
   height: auto;
-  background-color: #125E8A;
-  box-shadow: 2px 4px 3px #183446;
+  background-color: $bluecolor;
+  box-shadow: $shadow;
   border-radius: 5px;
 }
