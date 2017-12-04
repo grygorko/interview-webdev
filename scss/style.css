@@ -5,8 +5,7 @@ html {
   background-repeat: space;
   text-align: center;
   height: 800px;
-  width: auto;
-}
+  width: auto; }
 
 header {
   display: flex;
@@ -18,44 +17,33 @@ header {
   height: auto;
   background-color: #125E8A;
   box-shadow: 2px 4px 3px #183446;
-  border-radius: 5px;
-}
+  border-radius: 5px; }
 
 .menu, footer, .cocontact, .form, .quest, h2 {
-  font: 100% Ubuntu, sans-serif;
-}
+  font: 100% Ubuntu, sans-serif; }
 
 .menu {
   padding: 10px;
   position: relative;
   float: right;
-  margin-top: 10px;
-}
-
-.menu a {
-  margin: 5px;
-}
+  margin-top: 10px; }
+  .menu a {
+    margin: 5px; }
 
 .name {
   font-family: 'Josefin Sans', sans-serif;
   padding: 10px;
   text-transform: uppercase;
   margin: -10px auto;
-  float: left;
-}
+  float: left; }
 
 a {
-  color: black;
-}
-
-a:hover {
-  color: #ffffff;
-  text-shadow: 2px 4px 3px #183446;
-}
-
-a:active {
-  color: #022F40;
-}
+  color: black; }
+  a:hover {
+    color: #ffffff;
+    text-shadow: 2px 4px 3px #183446; }
+  a:active {
+    color: #022F40; }
 
 section {
   background-color: white;
@@ -67,34 +55,28 @@ section {
   margin: 20px auto;
   padding: 40px;
   border-radius: 5px;
-  box-shadow: 2px 4px 3px #183446;
-}
+  box-shadow: 2px 4px 3px #183446; }
 
 ul {
   margin-top: 50px;
   list-style: none;
   min-width: 160px;
   text-align: right;
-  font-family: Ubuntu, sans-serif;
-}
+  font-family: Ubuntu, sans-serif; }
 
 li {
-  margin: 10px;
-}
+  margin: 10px; }
 
 .about {
   font-family: Arial, sans-serif;
   line-height: 1.4;
   position: static;
   width: 300px;
-  margin: 10px auto 10px auto;
-}
-
-.about p {
-  text-align: justify;
-  font-size: 15px;
-  padding: 10px;
-}
+  margin: 10px auto 10px auto; }
+  .about p {
+    text-align: justify;
+    font-size: 15px;
+    padding: 10px; }
 
 .myphoto {
   height: 200px;
@@ -107,30 +89,25 @@ li {
   transition-property: all;
   transition-duration: .3s;
   transition-timing-function: ease-in-out;
-  cursor: auto;
-}
-
-.myphoto:hover {
-  position: sticky;
-  height: 250px;
-  width: 250px;
-  border-radius: 150px;
-  box-shadow: 1px 1px 2px #183446;
-  margin: 80px 25px;
-}
+  cursor: auto; }
+  .myphoto:hover {
+    position: sticky;
+    height: 250px;
+    width: 250px;
+    border-radius: 150px;
+    box-shadow: 1px 1px 2px #183446;
+    margin: 80px 25px; }
 
 .opinion {
   margin-top: 50px;
   margin-left: 30px;
   text-align: right;
   width: 300px;
-  padding: 10px;
-}
+  padding: 10px; }
 
 .quest {
   text-align: left;
-  font-size: 14px;
-}
+  font-size: 14px; }
 
 .drop1 {
   color: black;
@@ -140,32 +117,17 @@ li {
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0px 8px 16px 0px #183446;
-  z-index: 1;
-}
+  z-index: 1; }
 
 .q1 {
   position: relative;
-  cursor: pointer;
-}
-
-.q1:hover {
-  display: block;
-  position: absolute;
-  margin-left: 20px;
-  background-color: #125E8A;
-  padding: 20px;
-  font-size: 120%;
-  text-decoration: underline;
-  color: #125E8A;
-}
-
-.q1 .drop1 {
-  display: block;
-  position: absolute;
-  margin-left: 20px;
-  background-color: #125E8A;
-  padding: 20px;
-}
+  cursor: pointer; }
+  .q1:hover .drop1 {
+    display: block;
+    position: absolute;
+    margin-left: 20px;
+    background-color: #125E8A;
+    padding: 20px; }
 
 footer {
   padding: 10px;
@@ -174,5 +136,4 @@ footer {
   height: auto;
   background-color: #125E8A;
   box-shadow: 2px 4px 3px #183446;
-  border-radius: 5px;
-}
+  border-radius: 5px; }

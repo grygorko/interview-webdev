@@ -4,7 +4,7 @@ $text-color: #ffffff;
 $font: Ubuntu, sans-serif;
 html{
   margin: 0 auto;
-  background-image: url(1511.jpg);
+  background-image: url(./img/1511.jpg);
   background-size: cover;
   background-repeat: space;
   text-align: center;
@@ -139,15 +139,10 @@ li {
 .q1 {
   position: relative;
   cursor: pointer;
-  &:hover{
-    @include dropdown;
-    font-size: 120%;
-    text-decoration: underline;
-    color: #125E8A;
+  &:hover .drop1 {
+      @include dropdown;
   }
-  .drop1 {
-    @include dropdown;
-  }
+
 }
 footer {
   padding: 10px;
