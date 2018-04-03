@@ -1,0 +1,117 @@
+<!-- here comes white box -->
+  <section>
+    <div class="quest">
+      <div class="q1">1. Can you introduce yourself briefly?
+        <div class="drop1">
+          Tim Cools - director of the Soloco© - is a passionate developer with 14+ years of experience in a broad range software development projects and with a strong focus on scalability and quality. He looks at software development as a craft and constantly
+          works on improving his own skills. As a solutions architect he designs web and back-end system from ground up best suited for the clients' needs. He loves to share his knowledge with others and to help teams to take the quality of the developed
+          software to the next level. He strongly believes in leading by example and prove it very effective at numerous teams.
+        </div>
+      </div>
+      <p></p>
+
+      <div class="q1">
+        2. Where do you work ? (independent / SME / big box / public service ...)
+        <div class="drop1">
+          Independent freelances
+        </div>
+      </div>
+      <p></p>
+
+      <div class="q1">
+        3. What is your exact function within the company? In which department of the company do you work?
+        <div class="drop1">
+          Depends on the project, mostly senior full-stack or back-end developer/architect.
+        </div>
+      </div>
+      <p></p>
+
+      <div class="q1">
+        4. Why the web development?
+        <div class="drop1">
+          Web-development and software development in general is a passion. I love to create virtual systems which can help people and businesses.
+        </div>
+      </div>
+      <p></p>
+
+      <div class="q1">
+        5. How long do you work as web-developer?
+        <div class="drop1">
+          I work since 2000 as a developer.
+        </div>
+      </div>
+      <p></p>
+      <div class="q1">
+        6. What made you want to do this job?
+        <div class="drop1">
+          Software development was a hobby since I'm 10 years old, so I had the opportunity to create a job from my hobby.
+        </div>
+      </div>
+      <p></p>
+      <div class="q1">
+        7. What is your path? (courses / self-education / ...)
+        <div class="drop1">
+          10y: self-education <br> 18y: IT bachelor in evening course <br> 18y: started working as a developer and learning on the job I learned most by working professionally in teams. It is a continuous path of learning, I still read books and articles
+          on new technologies. And write code for fun in my free time.
+        </div>
+      </div>
+      <p></p>
+      <div class="q1">
+        8. What are the personal qualities required to perform this job according to you?
+        <div class="drop1">
+          Respectful and clear communication with both customers and team-members.
+        </div>
+      </div>
+      <p></p>
+      <div class="q1">
+        9. Can you specify which technologies you use on a daily basis?
+        <div class="drop1">
+          .NET C# <br> Javascript node.js / angularjs / reactjs <br> Html / css <br> databases: sql / nosql <br> automated testing and continuous integration tools <br> collaboration tools (git / jira / confluence / ...)
+        </div>
+      </div>
+      <p></p>
+      <div class="q1">
+        10. What do you like the most about your job and why?
+        <div class="drop1">
+          The technical challenge and creating something that helps people
+        </div>
+      </div>
+      <p></p>
+      <div class="q1">
+        11. What problems you face with this job?
+        <div class="drop1">
+          Most issues on projects are inter-human communication related.
+        </div>
+      </div>
+      <p></p>
+      <div class="q1">
+        12. What is the state of the job market for this job in general in your opinion? In your geographical area?
+        <div class="drop1">
+          In Belgium we have a high demand for developers. Especially for passionate developers and developers with more experience.
+        </div>
+      </div>
+      <p></p>
+      <div class="q1">
+        13. Are there recruitment difficulties in your job?
+        <div class="drop1">
+          I have not encountered this for myself personally.
+        </div>
+      </div>
+      <p></p>
+      <div class="q1">
+        14. Are there people you would not recommend doing this job?
+        <div class="drop1">
+          People who mainly what to do this for the money. If you are not passionate about the technology you will not be able to keep up with the latest technologies...
+        </div>
+      </div>
+      <p></p>
+      <div class="q1">
+        15. What advice would you give me?
+        <div class="drop1">
+          Spend as much time as you can, afford to read someone else code and to write code in many different languages/platforms. Practising coding is the best way to improve your skills.
+        </div>
+      </div>
+
+    </div>
+
+  </section>
